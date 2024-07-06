@@ -1,0 +1,36 @@
+#carouselExample {
+  height: 350px;
+  position: relative;
+  z-index: -1;
+}
+
+#navigator {
+  background-color: rgb(34, 46, 61);
+}
+
+body {
+  background-color: rgb(227, 230, 230);
+}
+
+.card {
+  height: 370px;
+  max-height: 370px;
+  max-width: 290px;
+  margin: 10px 0;
+}
+
+.card-large {
+  background-color: white;
+  padding: 2;
+  border: 1px solid white;
+  margin: 10px 0;
+}
+
+.card-body-large {
+  padding: 16px;
+}
+
+#sidebar {
+  display: none;
+  background-color: white;
+}
